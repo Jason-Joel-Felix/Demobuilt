@@ -1,5 +1,6 @@
 import React from 'react';
 import { Triangle, Wrench, Briefcase, Palette } from 'lucide-react';
+import HeroBg from './BgHero.jpeg';
 
 interface HeroProps {
   onBookCall: () => void;
@@ -11,8 +12,13 @@ const Hero: React.FC<HeroProps> = ({ onBookCall }) => {
       {/* Background with cityscape */}
       <div className="absolute inset-0">
         {/* Background image */}
-        <img 
+        {/* <img 
           src="/Untitled.jpeg" 
+          alt="Hero Background" 
+          className="absolute inset-0 w-full h-full object-cover"
+        />*/}
+        <img 
+          src={HeroBg} 
           alt="Hero Background" 
           className="absolute inset-0 w-full h-full object-cover"
         />
