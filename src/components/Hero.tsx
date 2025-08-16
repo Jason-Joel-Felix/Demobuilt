@@ -1,6 +1,6 @@
 import React from 'react';
 import { Triangle, Wrench, Briefcase, Palette } from 'lucide-react';
-import HeroBg from './BgHero.jpeg';
+import HeroBg from '/BgHero.jpeg';
 
 interface HeroProps {
   onBookCall: () => void;
