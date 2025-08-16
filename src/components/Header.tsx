@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import Mainlogo from '/Mainlogo.png';
 
 interface HeaderProps {
   onBookCall: () => void;
@@ -25,10 +26,15 @@ const Header: React.FC<HeaderProps> = ({ onBookCall }) => {
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <div className="flex items-center space-x-2">
-              <img 
+              {/* <img 
                 src="/components/Mainlogo.png" 
                 alt="Intermass Groups" 
                 className="h-8 w-auto"
+              />*/}
+              <img 
+               src={Mainlogo} 
+               alt="Intermass Groups" 
+               className="h-8 w-auto"
               />
             </div>
           </div>
