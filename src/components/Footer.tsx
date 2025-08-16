@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Linkedin, Twitter, Instagram } from 'lucide-react';
+import Mainlogo from '/Mainlogo.png';
 
 const Footer: React.FC = () => {
   return (
@@ -9,10 +10,15 @@ const Footer: React.FC = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <img 
+              {/*<img 
                 src="/src/components/Mainlogo.png" 
                 alt="Intermass Groups" 
                 className="h-10 w-auto"
+              />*/}
+              <img 
+               src={Mainlogo} 
+               alt="Intermass Groups" 
+               className="h-8 w-auto"
               />
             </div>
             <p className="text-gray-300 text-lg leading-relaxed mb-6 max-w-md">
