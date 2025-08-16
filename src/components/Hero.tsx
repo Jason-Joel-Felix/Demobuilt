@@ -12,7 +12,7 @@ const Hero: React.FC<HeroProps> = ({ onBookCall }) => {
       <div className="absolute inset-0">
         {/* Background image */}
         <img 
-          src="./components/Untitled (44).png" 
+          src="/Untitled (44).png" 
           alt="Hero Background" 
           className="absolute inset-0 w-full h-full object-cover"
         />
