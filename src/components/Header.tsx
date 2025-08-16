@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ onBookCall }) => {
           <div className="flex items-center space-x-3">
             <div className="flex items-center space-x-2">
               <img 
-                src="/src/components/Mainlogo.png" 
+                src="/components/Mainlogo.png" 
                 alt="Intermass Groups" 
                 className="h-8 w-auto"
               />
